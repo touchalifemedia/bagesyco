@@ -1,0 +1,45 @@
+#logo {
+	margin-top: 21px;
+}
+
+#footer_grid {
+	padding-top: 26px;
+}
+
+#newsletter_headline {
+	margin-top: 12px;
+}
+
+#newsletter_headline_small {
+	margin-top: 15px;
+}
+
+#content_home {
+	width: 960px;
+	margin-top: 55px;
+	margin-bottom: 1px;
+}
+
+#content_sub {
+	width: 960px;
+	margin-top: 85px;
+	margin-bottom: 1px;
+}
+
+.contact_field_l {
+	float: left;
+		padding-bottom: 15px;
+}
+
+.contact_field_r {
+	float: left;
+		padding-bottom: 15px;
+}
+
+.contact_field_large {
+	float: left;
+}
+
+.contact_field_area {
+	float: left;
+}

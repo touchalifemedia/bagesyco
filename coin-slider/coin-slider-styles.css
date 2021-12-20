@@ -1,0 +1,27 @@
+/*
+	Coin Slider jQuery plugin CSS styles
+	http://workshop.rs/projects/coin-slider
+*/
+
+
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+
+.cs-buttons { 
+    background: url("../graphics/slider_bar.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    font-size: 0;
+    margin-top: 24px;
+    padding: 8px 7px;
+}
+
+.cs-buttons a { background: url(../graphics/slider_inactive.png) no-repeat; margin-left: 3px; margin-right: 3px; height: 19px; width: 19px; float: left; border: none; color: #B8C4CF; text-indent: -1000px; }
+.cs-buttons a:hover { background: url(../graphics/slider_active.png) no-repeat; margin-left: 3px; margin-right: 3px; height: 19px; width: 19px; float: left; border: none; color: #B8C4CF; text-indent: -1000px; }
+.cs-buttons a:active{ background: url(../graphics/slider_active.png) no-repeat!important; height: 19px; width: 19px;}
+
+.cs-active { background: url(../graphics/slider_active.png) no-repeat!important; height: 19px; width: 19px;}
+
+.cs-title { width: 930px; padding: 20px; background-color: #000000; color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold;}
+
+.cs-prev, 
+.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold;}
